@@ -1,0 +1,719 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1440px;
+}
+
+/* header start */
+
+header .logo {
+  color: #62d0df;
+  font-family: Larsseit;
+  font-size: 24px;
+  line-height: 26.72px;
+  padding-left: 179px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-right: 90px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  font-family: Larsseit;
+  font-size: 19px;
+  line-height: 15.59px;
+
+  color: #192080;
+  text-decoration: none;
+}
+
+header button {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: #62d0df;
+  color: white;
+  border: none;
+}
+/* header end */
+
+/* helping section start */
+
+.helping-section {
+  display: flex;
+  align-items: center;
+  gap: 550px;
+}
+.helping-section {
+  align-items: start;
+}
+
+.life-section h3 {
+  color: #62d0df;
+  width: 484px;
+  height: 64px;
+  padding-top: 141px;
+  padding-left: 179px;
+}
+
+.helping-section h1 {
+  width: 584px;
+  height: 167px;
+  padding-top: 25px;
+  padding-left: 179px;
+  color: #22356f;
+}
+
+.helping-section p {
+  width: 569px;
+  height: 161px;
+  padding-left: 179px;
+  color: #22356f;
+  gap: 18px;
+  font-family: Larsseit;
+  font-size: 20px;
+  line-height: 42.19px;
+  margin-bottom: 30px;
+}
+
+.who-button {
+  width: 150px;
+  height: 50px;
+
+  padding-top: 3px;
+
+  color: #fff;
+  background: #f9b640;
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.button-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 60px;
+}
+
+.what-button {
+  width: 150px;
+  height: 43px;
+  top: 718px;
+  left: 367px;
+  color: #f9b640;
+  border: none;
+  background: white;
+}
+
+.thrive-section {
+  display: flex;
+  padding-top: 77px;
+  font-family: Larsseit;
+}
+
+.from-section h1 {
+  padding-top: 151px;
+  padding-left: 178px;
+  color: white;
+}
+
+.thrive-section .from-section {
+  background: #62d0df;
+  padding-left: 113px;
+}
+
+.imporive-section {
+  width: 859px;
+  height: 235px;
+  padding-top: 75px;
+  padding-left: 110px;
+  padding-right: 1px;
+  gap: 7px;
+  font-size: 20px;
+  line-height: 35.16px;
+  color: white;
+}
+
+.about-section {
+  padding-top: 150px;
+  padding-left: 530px;
+  padding-bottom: 80px;
+  color: #22356f;
+}
+/* colors section start */
+.colors-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.weight-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.weight-box h1 {
+  padding-top: 30px;
+  padding-left: 78px;
+  color: white;
+}
+
+.weight-box {
+  width: 360px;
+  height: 360px;
+  background: #ffe2de;
+}
+
+.running-box {
+  width: 360px;
+  height: 360px;
+  background: #c4e769;
+}
+
+.running-box h1 {
+  padding-top: 30px;
+  padding-left: 78px;
+  color: white;
+}
+
+.running-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.pumping-box {
+  width: 360px;
+  height: 360px;
+  background: #62d0df;
+}
+
+.pumping-box h1 {
+  padding-top: 30px;
+  padding-left: 78px;
+  color: white;
+}
+
+.pumping-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.iron-box {
+  width: 360px;
+  height: 360px;
+  background: #0052c1;
+}
+
+.iron-box h1 {
+  padding-top: 30px;
+  padding-left: 78px;
+  color: white;
+}
+
+.iron-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+/* colors section end */
+
+/* stravberry section start */
+
+.stravberry-section {
+  display: flex;
+  align-items: center;
+  padding-left: 49px;
+  padding-top: 120px;
+}
+
+.physical-box {
+  width: 480px;
+  height: 480px;
+  background: #22356f;
+}
+
+.physical-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+
+.physical-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.mental-box {
+  width: 480px;
+  height: 480px;
+  background: #0052c1;
+}
+
+.mental-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+
+.mental-box h6 {
+  font-size: 2px;
+  padding-left: 50px;
+  padding-top: 50px;
+  color: white;
+}
+
+.nutrition-box {
+  width: 480px;
+  height: 480px;
+  background-image: url(images/joanna-kosinska-340748.png);
+}
+
+.nutrition-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+.nutrition-box h6 {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 2px;
+  color: white;
+}
+
+.nutrition-box {
+  background-image: url(images/joanna-kosinska-340748.png);
+}
+
+/* strawberry section end */
+
+/* health section start */
+.health-section {
+  display: flex;
+  align-items: center;
+}
+
+.gymnastics-box {
+  width: 480px;
+  height: 480px;
+  background: #62d0df;
+}
+
+.gymnastics-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+
+.gymnastics-box h6 {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 2px;
+  color: white;
+}
+
+.crossfit-box {
+  width: 480px;
+  height: 480px;
+  background: #dee1ff;
+}
+
+.crossfit-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+
+.crossfit-box h6 {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 2px;
+  color: white;
+}
+
+.aerobics-box {
+  width: 480px;
+  height: 480px;
+  background: #8f00ff;
+}
+
+.aerobics-box h1 {
+  padding-left: 104px;
+  padding-top: 30px;
+  color: white;
+  font-size: 33px;
+}
+
+.aerobics-box h6 {
+  padding-left: 50px;
+  padding-top: 50px;
+  font-size: 2px;
+  color: white;
+}
+/* health section end */
+
+/* box container start */
+.box-container {
+  display: flex;
+  align-items: center;
+  padding-left: 49px;
+}
+
+.text-contact-one {
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.text-contact-one .content {
+    width: 100%;
+    padding: 55px 77px 37px 105px;
+}
+
+
+.text-contact-two  {
+   width: 100%;
+    
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.text-contact-two .coptain {
+ width: 100%;
+    padding: 55px 77px 37px 105px;    
+}
+
+
+.loss-box p  {
+    padding-top: 28px;
+  color: grey;
+}
+
+.plans-box  p {
+   padding-top: 28px;
+  color: grey;
+}
+
+
+.peace-box p {
+     padding-top: 28px;
+  color: grey;
+}
+
+.training-box p {
+     padding-top: 28px;
+  color: grey;
+}
+
+.balance-box p {
+     padding-top: 28px;
+  color: grey;
+}
+
+
+.cardio-box p {
+     padding-top: 28px;
+  color: grey;
+}
+
+.affect-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.affect-section  h1 {
+    padding-top: 300px;
+    font-family: Larsseit;
+font-size: 36px;
+line-height: 52.73px;
+letter-spacing: -0.01em;
+color: #192080;
+
+}
+
+.affect-section  span {
+    color: #62d0df;
+}
+
+.also-button {
+    color: #f9b640;
+    border: none;
+    background: white;
+    padding-top: 150px;
+}
+/* box container end */
+
+/* smile section start*/
+.smile-section {
+     display: flex;
+   
+}
+
+.ready-section{
+    background: #22356F;
+color: white;
+}
+
+.ready-section h4 {
+    font-family: Larsseit;
+font-size: 16px;
+padding-top: 103px;
+padding-left: 180px;
+line-height: 12.19px;
+letter-spacing: 0.06em;
+}
+
+.ready-section h1 {
+    font-family: Larsseit;
+font-size: 64px;
+padding-top: 230px;
+padding-left: 180px;
+line-height: 93.75px;
+letter-spacing: -0.01em;
+}
+
+.ready-section h3 {
+    font-family: Larsseit;
+font-size: 36px;
+padding-top: 75px;
+padding-left: 180px;
+line-height: 52.73px;
+letter-spacing: -0.005em;
+}
+
+.ready-section h2 {
+font-family: Larsseit;
+font-size: 16px;
+padding-top: 110px;
+padding-left: 180px;
+line-height: 23.44px;
+letter-spacing: 0.1em;
+color: #62d0df;
+}
+/* smile section end */
+
+/* footer start */
+
+footer {
+    display: flex;
+}
+footer h2 {
+    padding-top: 98px;
+    font-family: Larsseit;
+font-size: 14px;
+line-height: 10.66px;
+letter-spacing: -0.006em;
+color: #22356f;
+
+}
+
+.info-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 68px;
+    
+}
+
+footer p {
+    padding-top: 50px;
+    font-family: Larsseit;
+font-size: 14px;
+line-height: 22.97px;
+letter-spacing: -0.006em;
+color: grey;
+
+}
+
+.copyright-section {
+    width: 1443px;
+height: 80px;
+background: #62D0DF;
+padding-top: 30px;
+padding-left: 160px;
+color: #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+ 
+.wrapper {
+  width: 768px;
+  flex-direction: column;  
+} 
+
+    header {
+    padding: 20px;
+  }
+  header ul {
+    display: none;
+    flex-direction: column;
+  }
+
+.header li {
+    display: block;
+    flex-direction: column;
+}
+
+    .helping-section {
+    background-size: 768px;
+    flex-direction: column;
+  }
+  .life-section {
+    padding-left:  250px;
+    width: 70px;
+  }
+  .img-section {
+ flex-direction: column;
+  }
+  .header ul{
+    flex-direction: column;
+    display: block;
+
+  }
+.header .button{
+    display: none;
+padding-left: 150px;
+}
+
+.helping-section h1 {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helping-section{
+    flex-direction: column;
+    display: flex;
+}
+
+.who-button {
+ width: 150px;
+  height: 43px;
+  text-align: center;
+  justify-content: center;
+}
+
+.thrive-section {
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-left: 230px;
+padding-bottom: 100px;
+}
+
+.imporive-section {
+  padding-top: 10px;
+}
+
+.about-section {
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.colors-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ flex-direction: column;
+ padding-left: 500px;
+}
+
+.stravberry-section {
+  display: flex;
+  align-items: center;
+  padding-left: 520px;
+  padding-top: 120px;
+  flex-direction: column;
+}
+
+.health-section {
+    
+ 
+ 
+  flex-direction: column;
+
+}
+
+.ready-section{
+   flex-direction: column;
+}
+
+
+.box-container {
+display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.smile-section {
+    width: 900px;
+   align-items: center;
+   flex-direction: column;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+ 
